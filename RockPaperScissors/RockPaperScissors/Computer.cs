@@ -14,7 +14,7 @@ namespace RockPaperScissors
         public int getComputerChoice()
         {
             computerChoice = randNum.Next(0,5);
-            Console.WriteLine("Random Number: {0}", computerChoice);
+            //Console.WriteLine("Random Number: {0}", computerChoice);
             switch (computerChoice)
             {
                 case 0:

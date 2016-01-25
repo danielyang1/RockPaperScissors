@@ -181,8 +181,9 @@ namespace RockPaperScissors
             public int calculateWinnerOfRoundvsPlayer2(int player1, int player2)
         {
             //return win;
-            Console.WriteLine(player1);
             Console.WriteLine(player2);
+            Console.WriteLine("Choice of Player 1: " + player1);
+            Console.WriteLine("Choice of Player 2: " + player2);
             if (player1 == 0)//rock chosen
             {
                 switch ((5 + player1 - player2) % 5)
